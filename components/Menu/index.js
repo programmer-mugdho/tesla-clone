@@ -7,6 +7,8 @@ import items from './items';
 
 const Menu = () => {
     return (
+//         New comment added
+        
         <View style={styles.menuItems}>
             {items.map(item => (
                 <TouchableOpacity key={item.id}>
@@ -19,7 +21,9 @@ const Menu = () => {
                         <FontAwesomeIcon size={24} style={styles.arrowIcon} icon={faChevronRight} />
                     </View>
                 </TouchableOpacity>
+                             
             ))}
+
         </View>
     );
 };
